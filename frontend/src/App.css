@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,800;1,600&display=swap');
+.carouselbg {
+  overflow-x: hidden;
+}
+.carouselbg1 {
+  height: 785px;
+  background-image: url("http://tantum.ancorathemes.com/wp-content/uploads/2019/04/slider-2-copyright.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.carouselbg2 {
+  height: 785px;
+  background-image: url("http://tantum.ancorathemes.com/wp-content/uploads/2019/04/slider-3-copyright.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.carouselbg3 {
+  height: 785px;
+  background-image: url("http://tantum.ancorathemes.com/wp-content/uploads/2019/04/slider-1-copyright.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.caraouseltext {
+  height: 785px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.carouselbg h1{
+    font-family: 'Barlow', sans-serif;
+    font-size: 80px;
+}
+.carouselbg  p {
+  
+}
