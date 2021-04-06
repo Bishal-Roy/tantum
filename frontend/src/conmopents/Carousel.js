@@ -2,6 +2,8 @@ import React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import Form from "./Form";
+import { Box } from "@chakra-ui/layout";
 
 // function SampleNextArrow(props) {
 //     const { className, style, onClick } = props;
@@ -47,68 +49,79 @@ function Carousel() {
     },
   };
   return (
-    <div className="carouselbg">
-      <Slider {...settings}>
-        <div className="carouselbg1">
-          <div className="caraouseltext">
-            <p
-              style={{
-                color: "#42E187",
-                marginBottom: "-50px",
-                fontSize: "20px",
-              }}
-            >
-              starting from $18 per day
-            </p>
-            <h1>Fast and Effective</h1>
-            <h1 style={{ marginTop: "-70px" }}>Service</h1>
-            <p style={{ marginTop: "-20px" }}>We let YOU pick the car that will ensure the best trip ever.</p>
-            <p style={{ marginTop: "-10px" }}>
-              Give us a shout and we'll get it ready for you!
-            </p>
+    <>
+      <div className="carouselbg">
+        <Slider {...settings}>
+          <div className="carouselbg1">
+            <div className="caraouseltext">
+              <p
+                style={{
+                  color: "#42E187",
+                  marginBottom: "-50px",
+                  fontSize: "20px",
+                }}
+              >
+                starting from $18 per day
+              </p>
+              <h1>Fast and Effective</h1>
+              <h1 style={{ marginTop: "-70px" }}>Service</h1>
+              <p style={{ marginTop: "-20px" }}>
+                We let YOU pick the car that will ensure the best trip ever.
+              </p>
+              <p style={{ marginTop: "-10px" }}>
+                Give us a shout and we'll get it ready for you!
+              </p>
+            </div>
           </div>
-        </div>
-        <div className="carouselbg2">
-          <div className="caraouseltext">
-            <p
-              style={{
-                color: "#42E187",
-                marginBottom: "-50px",
-                fontSize: "20px",
-              }}
-            >
-              starting from $18 per day
-            </p>
-            <h1>Global Online</h1>
-            <h1 style={{ marginTop: "-70px" }}>Car Rental</h1>
+          <div className="carouselbg2">
+            <div className="caraouseltext">
+              <p
+                style={{
+                  color: "#42E187",
+                  marginBottom: "-50px",
+                  fontSize: "20px",
+                }}
+              >
+                starting from $18 per day
+              </p>
+              <h1>Global Online</h1>
+              <h1 style={{ marginTop: "-70px" }}>Car Rental</h1>
 
-            <p style={{ marginTop: "-20px" }}>Order cars all over the world using our website service!</p>
-            <p style={{ marginTop: "-10px" }}>
-              We will make sure that you receive it on time.
-            </p>
+              <p style={{ marginTop: "-20px" }}>
+                Order cars all over the world using our website service!
+              </p>
+              <p style={{ marginTop: "-10px" }}>
+                We will make sure that you receive it on time.
+              </p>
+            </div>
           </div>
-        </div>
-        <div className="carouselbg3">
-          <div className="caraouseltext">
-            <p
-              style={{
-                color: "#42E187",
-                marginBottom: "-50px",
-                fontSize: "20px",
-              }}
-            >
-              car rental service
-            </p>
-            <h1>Favorite Rental</h1>
-            <h1 style={{ marginTop: "-70px" }}>Service</h1>
-            <p style={{ marginTop: "-20px" }}>The Best Final Car Rental Rates! NO Hidden Extra Charges!</p>
-            <p style={{ marginTop: "-10px" }}>
-              Trusted by 7 million customers and counting!
-            </p>
+          <div className="carouselbg3">
+            <div className="caraouseltext">
+              <p
+                style={{
+                  color: "#42E187",
+                  marginBottom: "-50px",
+                  fontSize: "20px",
+                }}
+              >
+                car rental service
+              </p>
+              <h1>Favorite Rental</h1>
+              <h1 style={{ marginTop: "-70px" }}>Service</h1>
+              <p style={{ marginTop: "-20px" }}>
+                The Best Final Car Rental Rates! NO Hidden Extra Charges!
+              </p>
+              <p style={{ marginTop: "-10px" }}>
+                Trusted by 7 million customers and counting!
+              </p>
+            </div>
           </div>
-        </div>
-      </Slider>
-    </div>
+        </Slider>
+      </div>
+      <div className="searchform">
+        <Form />
+      </div>
+    </>
   );
 }
 export default Carousel;
