@@ -128,3 +128,33 @@ input {
   background-size: cover;
   
 }
+
+
+.happyclient{
+  background-image: url('https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTA4fHxoYXBweSUyMGNsaWVudHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+.hoverchange{
+  color: #706262;
+font-weight:500
+}
+.hoverchange:hover{
+  color: #25db58;
+  cursor: pointer;
+}
+.ana{
+  color: #25db58;
+  font-weight: bold;
+}
+.ana:hover{
+  color: #fff;
+  cursor: pointer;
+}
+
+.fixcircleicon:hover{
+  color: #000;
+  cursor: pointer;
+}
